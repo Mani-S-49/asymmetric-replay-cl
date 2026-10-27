@@ -1,0 +1,17 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Model weights, datasets, and local checkpoints (Do not push to GitHub)
+checkpoints/
+outputs/
+data/
+*.safetensors
+*.bin
+
+# Weights & Biases local logs
+wandb/
+.ipynb_checkpoints/
